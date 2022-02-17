@@ -1,0 +1,22 @@
+{
+  "name": "fe-wk4-assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeemv/FE-wk4-assignment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeemv/FE-wk4-assignment/issues"
+  },
+  "homepage": "https://github.com/xeemv/FE-wk4-assignment#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.2"
+  }
+}
