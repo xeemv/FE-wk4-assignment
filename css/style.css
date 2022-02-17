@@ -1,7 +1,7 @@
 body{
     background-image: url(../images/travel.png);
     background-size: cover; 
-    background-repeat: no-repeat center;
+    background-repeat: no-repeat center center fixed;
     -webkit-background-size: cover; 
     -moz-background-size: cover; 
     -o-background-size: cover; 
@@ -11,7 +11,13 @@ img{
 }
 div{
     background-color: antiquewhite;
+    border-radius: 20px;
+}
+h1{
+    background-color: antiquewhite;
+    opacity: 90%;
+    border-radius: 20px;
 }
 .btn{
-    background-color: rgb(163, 121, 202);
+    background-color: rgb(184, 145, 221);
 }
