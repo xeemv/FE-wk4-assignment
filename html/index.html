@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/style.css">
+
+    <title>Travel Destination Wishlist</title>
+  </head>
+  <body class="container">
+      <br>
+    <h1 class="text-center"><img src="../images/logo2.PNG"> Travel Destination Wishlist</h1>
+<br>
+<div class="container">
+    <div class="card-body">
+        <div class="row">
+            <div class="col-sm">
+                <!-- first col -->
+                <div class="form-group">
+                    <label for="new-start-date">Entry Date</label>
+                    <input type="date" class="form-control" id="new-entry-date">
+                </div>
+                </div>
+                <div class="col-sm">
+                    <!-- second col on same row -->
+                    <div class="form-group">
+                        <label for="new-trip-date">Trip Date</label>
+                        <input type="date" class="form-control" id="new-trip-date">
+                    </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm">
+                 <!-- second row first col -->
+                <div class="form-group">
+                    <label for="new-destination">Destination</label>
+                    <input type="text" class="form-control" id="new-task-destination" placeholder="Destination Idea">
+                </div> 
+        </div>
+        <div class="col-sm">
+            <!-- second row second col on same row -->
+            <div class="form-group">
+                <label for="new-end-date">International or Domestic</label>
+                <input type="text" class="form-control" id="new-destination" placeholder="Where is the destination located?">
+            </div>
+    </div> 
+    </div>
+    <br>
+    <div class="row">
+        <div class="col-sm">
+            <div class="form-group">
+                <label for="new-end-date">Comments</label>
+                <input type="text" class="form-control" id="new-comments" placeholder="Comments">
+            </div>
+        </div> 
+        <div>
+            <button id="add" class="btn form control">Create</button>  
+        </div>        
+    </div>
+<br>
+<!--  create a table  -->
+<table id="list" class="table table-striped table-hover table-bordered table caption-top table-responsive-md table-responsive-stack">
+    <tr>
+        <th class="text-center">Entry Date</th>
+        <th class="text-center">Trip Date</th>
+        <th class="text-center">Destination</th>
+        <th class="text-center">International or Domestic</th>
+        <th class="text-center">Comments</th>
+        <th class="text-center">Action</th>
+    </tr>
+</table>
+
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="../js/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
