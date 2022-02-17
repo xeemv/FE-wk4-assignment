@@ -1,15 +1,17 @@
 body{
-    background-image: url(../images/travel.png);
-    background-size: cover; 
-    background-repeat: no-repeat center center fixed;
-    -webkit-background-size: cover; 
-    -moz-background-size: cover; 
-    -o-background-size: cover; 
+    background-image: url(../images/travel.png); 
+    /* height: 100vh; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-repeat: no-repeat center center fixed; */
+    /* -webkit-background-size: cover;  */
+    /* -moz-background-size: cover;  */
+    /* -o-background-size: cover;  */
 }
 img{
     border-radius: 10px;
 }
-div{
+.container{
     background-color: antiquewhite;
     border-radius: 20px;
 }
@@ -20,4 +22,10 @@ h1{
 }
 .btn{
     background-color: rgb(184, 145, 221);
+}
+table{
+    table-layout: fixed;
+}
+div .footer {
+    background-color: antiquewhite;
 }
