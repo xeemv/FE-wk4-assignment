@@ -1,13 +1,13 @@
-body{
-    background-image: url(../images/travel.png); 
+/* body{
+    background-image: url(../images/travel.png);
     /* height: 100vh; */
-    background-size: cover;
-    background-repeat: no-repeat;
+    /* background-size: cover;
+    background-repeat: no-repeat; */ 
     /* background-repeat: no-repeat center center fixed; */
     /* -webkit-background-size: cover;  */
     /* -moz-background-size: cover;  */
     /* -o-background-size: cover;  */
-}
+/* }
 img{
     border-radius: 10px;
 }
@@ -20,12 +20,14 @@ h1{
     opacity: 90%;
     border-radius: 20px;
 }
-.btn{
+#add{
     background-color: rgb(184, 145, 221);
+    margin-top: 10px;
 }
 table{
     table-layout: fixed;
 }
 div .footer {
     background-color: antiquewhite;
-}
+   
+} */
