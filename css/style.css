@@ -1,33 +1,63 @@
-/* body{
-    background-image: url(../images/travel.png);
-    /* height: 100vh; */
-    /* background-size: cover;
-    background-repeat: no-repeat; */ 
-    /* background-repeat: no-repeat center center fixed; */
-    /* -webkit-background-size: cover;  */
+/* html {  
+    background: url(../images/travel.png) no-repeat center center fixed; background-size: cover; 
+    -webkit-background-size: cover; 
     /* -moz-background-size: cover;  */
-    /* -o-background-size: cover;  */
-/* }
-img{
-    border-radius: 10px;
-}
-.container{
-    background-color: antiquewhite;
-    border-radius: 20px;
-}
-h1{
-    background-color: antiquewhite;
-    opacity: 90%;
-    border-radius: 20px;
-}
-#add{
-    background-color: rgb(184, 145, 221);
-    margin-top: 10px;
-}
-table{
-    table-layout: fixed;
-}
-div .footer {
-    background-color: antiquewhite;
-   
-} */
+    /* -o-background-size: cover; 
+    }  */
+    /* If in case you wish to turn off the white bg in bootstrap */ 
+    /* body{ 
+    background-color: transparent;  */
+    /*
+    - found this html backgroundd styling/code from: https://www.quora.com/How-do-I-make-the-background-image-responsive-in-Bootstrap
+    - code was posted by Abhilash Pillai, Online Educator at youtube.com/makdi (2016-present)
+        - 3rd post down from the top of the page.
+    */
+    /* } 
+    .responsive {
+    max-width: 75%;
+    height: auto;
+    } */
+    /* took the .responsive code from one of my personal side projects dealing w/ bootstrap 4 */
+    /* #logo{
+        border-radius: 10px;
+        margin: 10px;
+    }
+    #wish{
+        background-color: antiquewhite;
+        border-radius: 20px;
+    }
+    h1{
+        background-color: antiquewhite;
+        opacity: 90%;
+        border-radius: 20px;
+    }
+    #add{
+        background-color: rgb(184, 145, 221);
+        margin-top: 20px;
+        margin-left: 45%;
+    }
+    #add:hover{
+        background-color: rgb(131, 44, 131);
+    }
+    table{
+        table-layout: fixed;
+    }
+    td {
+    white-space: normal !important; 
+    word-wrap: break-word;  
+    }
+    .btn{
+        background-color: rgb(184, 145, 221);
+        margin: 20px;
+        color: black;
+    }      */
+    /*  
+    - td css style is to wrap the comment text in the table and prevent it from spilling over to the action column
+    - https://stackoverflow.com/questions/21587813/bootstrap-responsive-table-content-wrapping
+    - found this from stack ====> Mar 22, 2016 at 15:06
+user2195058, this one has 40 vote responses
+    */
+    /* div .footer {
+        background-color: antiquewhite;
+    
+    } */

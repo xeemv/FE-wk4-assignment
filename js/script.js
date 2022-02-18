@@ -2,7 +2,7 @@ let id = 0;
 
 
 document.getElementById('add').addEventListener('click', () => {
-    let createDate = new Date();    
+    // let createDate = new Date();    
     // w/o passing any arguments into new Date, it will take the current date/time
     let table = document.getElementById('list');
     // this is the reference to the table
@@ -28,6 +28,8 @@ document.getElementById('add').addEventListener('click', () => {
     // user will select from drop down list and values will display in the table
     row.insertCell(6).innerHTML = document.getElementById('new-comments').value;
     // row.insertCell(5).innerHTML = document.getElementById('new-comments').value;
+
+
     let action = row.insertCell(7);
     // this is the action created to allow a user to delete the current row
     action.appendChild(createDeleteButton(id++));
@@ -39,6 +41,23 @@ document.getElementById('add').addEventListener('click', () => {
     document.getElementById('new-trip-date').value = '';
     // this will give the user a blank slate to start over and add more task
     // this will clear the trip date
+    document.getElementById('new-task-destination').value = '';
+    // this will give the user a blank slate to start over and add more task
+    // this will give clear the destination field
+    document.getElementById('new-destination').value = '';
+    // this will give the user a blank slate to start over 
+    // this will give clear the drop down option to select if the trip is international or domestic
+    document.getElementById('Reseached-and-logging').value = '';
+    // this will give the user a blank slate to start over 
+    // this will give clear the drop down option to select different predefine choices
+    document.getElementById('partners').value = '';
+    // this will give the user a blank slate to start over
+    // this will give clear the drop down option to select different predefine choices regarding partners
+    document.getElementById('new-comments').value = '';
+    // this will give the user a blank slate to start over
+    // this will give clear text field to enter any comments
+    // table column already has css to wrap text w/in the column
+        // css is inline style
 })
 
 function createDeleteButton(id){
@@ -53,4 +72,3 @@ function createDeleteButton(id){
     };
     return btn;
 }
-
